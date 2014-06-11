@@ -1,5 +1,5 @@
 //
-//  RFViewController.h
+//  RFTableViewController.h
 //  UITableViewController Challenge
 //
 //  Created by Daniel Wong on 11/6/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RFViewController : UIViewController
+@interface RFTableViewController : UITableViewController
 
 @end

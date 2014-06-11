@@ -14,13 +14,13 @@
 		652385FF19486D71008A779D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 652385FE19486D71008A779D /* main.m */; };
 		6523860319486D71008A779D /* RFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6523860219486D71008A779D /* RFAppDelegate.m */; };
 		6523860619486D71008A779D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6523860419486D71008A779D /* Main.storyboard */; };
-		6523860919486D71008A779D /* RFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6523860819486D71008A779D /* RFViewController.m */; };
 		6523860B19486D71008A779D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6523860A19486D71008A779D /* Images.xcassets */; };
 		6523861219486D71008A779D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6523861119486D71008A779D /* XCTest.framework */; };
 		6523861319486D71008A779D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652385F219486D71008A779D /* Foundation.framework */; };
 		6523861419486D71008A779D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652385F619486D71008A779D /* UIKit.framework */; };
 		6523861C19486D71008A779D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6523861A19486D71008A779D /* InfoPlist.strings */; };
 		6523861E19486D71008A779D /* UITableViewController_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6523861D19486D71008A779D /* UITableViewController_ChallengeTests.m */; };
+		653F44791948721300D60387 /* RFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653F44781948721300D60387 /* RFTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		6523860119486D71008A779D /* RFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFAppDelegate.h; sourceTree = "<group>"; };
 		6523860219486D71008A779D /* RFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFAppDelegate.m; sourceTree = "<group>"; };
 		6523860519486D71008A779D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6523860719486D71008A779D /* RFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFViewController.h; sourceTree = "<group>"; };
-		6523860819486D71008A779D /* RFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFViewController.m; sourceTree = "<group>"; };
 		6523860A19486D71008A779D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6523861019486D71008A779D /* UITableViewController ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6523861119486D71008A779D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6523861919486D71008A779D /* UITableViewController ChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController ChallengeTests-Info.plist"; sourceTree = "<group>"; };
 		6523861B19486D71008A779D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6523861D19486D71008A779D /* UITableViewController_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_ChallengeTests.m; sourceTree = "<group>"; };
+		653F44771948721300D60387 /* RFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFTableViewController.h; sourceTree = "<group>"; };
+		653F44781948721300D60387 /* RFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				6523860119486D71008A779D /* RFAppDelegate.h */,
 				6523860219486D71008A779D /* RFAppDelegate.m */,
 				6523860419486D71008A779D /* Main.storyboard */,
-				6523860719486D71008A779D /* RFViewController.h */,
-				6523860819486D71008A779D /* RFViewController.m */,
+				653F44771948721300D60387 /* RFTableViewController.h */,
+				653F44781948721300D60387 /* RFTableViewController.m */,
 				6523860A19486D71008A779D /* Images.xcassets */,
 				652385F919486D71008A779D /* Supporting Files */,
 			);
@@ -252,7 +252,7 @@
 			files = (
 				6523860319486D71008A779D /* RFAppDelegate.m in Sources */,
 				652385FF19486D71008A779D /* main.m in Sources */,
-				6523860919486D71008A779D /* RFViewController.m in Sources */,
+				653F44791948721300D60387 /* RFTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +457,7 @@
 				6523862319486D71008A779D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6523862419486D71008A779D /* Build configuration list for PBXNativeTarget "UITableViewController ChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +466,7 @@
 				6523862619486D71008A779D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
